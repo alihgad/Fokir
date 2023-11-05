@@ -1,0 +1,241 @@
+  /* Extra small devices (phones, 600px and down)  
+@media only screen and (max-width: 600px) {...}
+  Small devices (portrait tablets and large phones, 600px and up)  
+@media only screen and (min-width: 600px) {...}
+  Medium devices (landscape tablets, 768px and up)  
+@media only screen and (min-width: 768px) {...}
+  Large devices (laptops/desktops, 992px and up)  
+@media only screen and (min-width: 992px) {...}
+  Extra large devices (large laptops and desktops, 1200px and up)  
+@media only screen and (min-width: 1200px) {...}  */
+
+
+
+
+
+
+@media screen and (min-width : 992px)  and (max-width : 1200px){
+    .container {
+        margin: 0 75px;
+    }
+
+    .massege{
+      width: 75%;
+    }
+
+    
+    
+}
+
+
+@media screen   and (max-width : 993px) {
+    .container{
+        margin: 0 9px;
+    }
+    .about .text{
+      width: 50%;
+    }
+
+    .about .text .left{
+    width: 150px;
+   
+    }
+    
+
+    .services .services-cards .services-card {
+      width: 50%;
+      margin-bottom: 20px;
+    }
+
+    .portfolio .protfolio-gallery .protoflio-item  {
+      
+      width: 50%;
+      
+    }
+    .testmonial .card {
+      width: 100%;
+      margin: 0;
+    }
+
+    .massege{
+      width: 85%;
+    }
+}
+
+
+
+@media screen and (max-width : 768px) {
+    .container {
+      margin:  0 100px;
+      padding: 30px 15px ;
+    }
+  
+    .home .nav .main {
+        display: none;
+    }
+
+    .home .nav .burger{
+      display: block;
+      margin-right: 20px;
+    }
+
+
+
+   
+    .about .photo {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .about .text{
+      width: 100%;
+    }
+
+
+    
+    .about .text .left{
+      float: none;
+    }
+    .about .text .right{
+      margin: 0;
+    }
+
+
+    .about .black-border{
+      border: none;
+      overflow: hidden;
+      border-radius: 0;
+
+    }
+
+    .about .black-border img{
+    top: 0;
+    left: 0;
+    
+  }
+
+
+  .about .photo .black-border .black-lair{
+    left: 0;
+    right: 0;
+    top: 100%;
+   
+  }
+  
+
+  .about .photo .black-border:hover .black-lair{
+    top:0px;
+    left:0px;
+    bottom: 0px;
+    right: 0px;
+ 
+  }
+  
+
+
+   
+
+    .services .services-cards .services-card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .portfolio ul li{
+      padding-right: 10px;
+    }
+
+    .portfolio .protfolio-gallery .protoflio-item  {
+      
+      width: 100%;
+      
+    }
+
+
+    .counter .counter-item {
+    margin-bottom: 20px;
+      width: 100%;
+     
+
+     }
+     .testmonial .card {
+      width: 100%;
+      padding: 15px;
+      margin: 0;
+     }
+
+
+
+     .testmonial .card .photo ,
+     .testmonial .card .text {
+  width: 100%;
+ }
+
+
+ .blog .blog-item{
+  width: 100%;
+ }
+
+ .massege{
+  width: 90%;
+}
+
+.input-padding-text , .input-padding-email
+{
+  width: 100%
+}
+
+.input-padding-email{
+  padding-left: 0;
+}
+
+.input-padding-text{
+  padding-right: 0;
+
+}
+
+
+.massege .button{
+  width: 40%;
+}
+.testmonial .points{
+  top: 450;
+}
+
+}
+
+
+@media screen and (max-width : 600px) {
+  .container{
+    margin:  0 60px  ;
+      padding: 30px 15px ;
+  }
+ 
+  .portfolio ul li:first-child{
+    padding-left: 5px;
+  }
+  .portfolio ul li{
+    padding-right: 5px;
+  }
+
+
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
